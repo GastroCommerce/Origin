@@ -9,20 +9,20 @@ namespace GastroCommerceRepository
     public class DataManager
     {
         public static string ConnectionString { get; set; }
-        private DataLayerDataContext DB { get; set; }
+        private DataLayerDataContext DataBase { get; set; }
 
         public DataManager()
         {
             if (!String.IsNullOrEmpty(ConnectionString))
             {
-                this.DB = new DataLayerDataContext(ConnectionString);
+                this.DataBase = new DataLayerDataContext(ConnectionString);
             }
             else
             {
-                this.DB = new DataLayerDataContext();
+                this.DataBase = new DataLayerDataContext();
             }
         }
 
-        }
+        
     }
 }

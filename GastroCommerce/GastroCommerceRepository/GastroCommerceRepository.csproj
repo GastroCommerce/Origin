@@ -55,7 +55,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="DataLayer.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>DataLayer.designer.cs</LastGenOutput>
