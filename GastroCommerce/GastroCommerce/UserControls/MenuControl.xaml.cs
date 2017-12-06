@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace GastroCommerce
+namespace GastroCommerce.UserControls
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para MenuControl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MenuControl : UserControl
     {
-        public MainWindow()
+        public MenuControl()
         {
             InitializeComponent();
         }
